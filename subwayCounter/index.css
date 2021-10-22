@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700;800&display=swap');
+
+body{
+    background-image: url("tram.jpg");
+    background-size: cover;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 170px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#welcome-el{
+    padding-top: 20px;
+}
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#increment-btn:hover{
+    cursor: pointer;
+}
+
+#save-btn{
+    background-color: darkgreen;
+}
+
+#save-btn:hover{
+    cursor: pointer;
+}
